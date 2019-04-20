@@ -1,0 +1,22 @@
+{
+  "name": "v-msg",
+  "version": "1.0.0",
+  "description": "A vue component used to show feedback message after some activities",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "message",
+    "ui-component"
+  ],
+  "author": "naecoo",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "rollup": "^1.10.1"
+  }
+}
