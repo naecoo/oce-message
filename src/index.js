@@ -1,5 +1,5 @@
-import a from './src/main.js'
-import b from './src/Message.vue'
+import a from './core/main.js'
+import b from './core/Message.vue'
 
 export const notify = a
 export const Message = b
