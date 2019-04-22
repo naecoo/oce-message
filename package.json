@@ -1,15 +1,13 @@
 {
-  "name": "v-msg",
+  "name": "oce-message",
   "version": "1.0.0",
   "description": "A vue component used to show feedback message after some activities",
   "main": "dist/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "vue",
-    "message",
-    "ui-component"
+    "component",
+    "vue-component",
+    "javascript"
   ],
   "author": "naecoo",
   "license": "MIT",
@@ -17,6 +15,16 @@
     "vue": "^2.6.10"
   },
   "devDependencies": {
-    "rollup": "^1.10.1"
+    "autoprefixer": "6.3.7",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-runtime": "^6.26.0",
+    "css-loader": "^2.1.1",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^0.23.1",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.30.0"
   }
 }
