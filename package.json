@@ -1,6 +1,6 @@
 {
   "name": "oce-message",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A vue component used to show feedback message after some activities",
   "main": "dist/index.js",
   "keywords": [
