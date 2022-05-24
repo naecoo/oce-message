@@ -1,17 +1,11 @@
-import a from './core/main.js'
-import b from './core/Message.vue'
+import notify from './notify.js'
+import Message from './Message.vue'
 
-export const notify = a
-export const Message = b
+export { notify, Message }
 
-class Plugin {
-  static install (Vue) {
+export default {
+  install (Vue) {
     Vue.prototype.notify = notify
-    Vue.mixin({
-      components: {
-        'oce-message': Message
-      }
-    })
+    Vue.component('oce-message', Message)
   }
 }
-export default Plugin

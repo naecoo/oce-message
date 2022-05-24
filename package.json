@@ -2,7 +2,7 @@
   "name": "oce-message",
   "version": "1.2.0",
   "description": "A vue component used to show feedback message after some activities",
-  "main": "index.js",
+  "main": "dist/index.js",
   "keywords": [
     "vue",
     "component",
@@ -16,6 +16,9 @@
   "author": "naecoo",
   "license": "MIT",
   "dependencies": {
+    "vue": "^2.6.10"
+  },
+  "peerDependencies": {
     "vue": "^2.6.10"
   }
 }
