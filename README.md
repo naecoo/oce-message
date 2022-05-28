@@ -11,7 +11,7 @@ npm install oce-message --save
 // main.js
 import Vue from 'vue'
 import msgPlugin from 'oce-message'
-import from 'oce-message/dist/style.css'
+import 'oce-message/dist/style.css'
 
 Vue.use(msgPlugin)
 
