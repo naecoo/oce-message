@@ -3,9 +3,12 @@ import Message from './Message.vue'
 
 export { notify, Message }
 
+let installed = false;
 export default {
-  install (Vue) {
-    Vue.prototype.notify = notify
+  install(Vue) {
+    if (installed) return;
+    installed = true;
+    Vue.prototype.$notify = notify
     Vue.component('oce-message', Message)
   }
 }

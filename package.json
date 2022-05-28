@@ -2,7 +2,14 @@
   "name": "oce-message",
   "version": "1.2.0",
   "description": "A vue component used to show feedback message after some activities",
-  "main": "dist/index.js",
+  "main": "./dist/oce-message.umd.js",
+  "module": "./dist/oce-message.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/oce-message.es.js",
+      "require": "./dist/oce-message.umd.js"
+    }
+  },
   "keywords": [
     "vue",
     "component",
@@ -15,10 +22,19 @@
   },
   "author": "naecoo",
   "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
   "dependencies": {
     "vue": "^2.6.10"
   },
   "peerDependencies": {
     "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "vite": "^2.9.9",
+    "vite-plugin-vue2": "^2.0.1",
+    "vue-template-compiler": "^2.6.14"
   }
 }

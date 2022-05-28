@@ -11,6 +11,7 @@ npm install oce-message --save
 // main.js
 import Vue from 'vue'
 import msgPlugin from 'oce-message'
+import from 'oce-message/dist/style.css'
 
 Vue.use(msgPlugin)
 
@@ -36,17 +37,17 @@ Vue.use(msgPlugin)
    // 装插件后，方法已经挂载在Vue实例上，可以全局访问
    
    // 最简单的用法
-   vm.notify('这是一条消息提示')
+   vm.$notify('这是一条消息提示')
    
    // 更多配置
-   vm.notify({
+   vm.$notify({
      message: '这是一条消息提示'，
      type: 'success',
      showCloseButton: true
    })
    
-   // notify方法返回了一个手动销毁的组件方法
-   const close = vm.notify(...)
+   // $notify方法返回了一个手动销毁的组件方法
+   const close = vm.$notify(...)
    close()
    ```
 

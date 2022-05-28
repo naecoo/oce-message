@@ -57,7 +57,7 @@ export default {
       visible: false,
       closed: false,
       timer: null
-   }
+    }
   },
   computed: {
     classes() {
@@ -70,7 +70,7 @@ export default {
         this.className
       ];
     }
-  }
+  },
   watch: {
     closed (newVal) {
       if (newVal) {
